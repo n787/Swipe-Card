@@ -1,9 +1,9 @@
 import React,{useState,useRef, useCallback,useEffect} from 'react';
 import {View, Text,StyleSheet,Animated, PanResponder,Dimensions} from 'react-native';
 import Card from '../../Components/Card';
-import { ACTION_OFFSET, CARD } from '../utils/Constants';
-import Footer from '../Footer';
-import {pics as picArray} from '../utils/data';
+import { ACTION_OFFSET, CARD } from '../../utils/Constants';
+import Footer from '../../Components/Footer';
+import {pics as picArray} from '../../utils/data';
 
 //const { height} = Dimensions.get('screen');
 export default function Main(){
