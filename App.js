@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
-import Main from './src/Main'
+import React from 'react';
+import Main from './src/View/Main'
 export default function App(){
   return(
     <Main/>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {  View,StyleSheet } from "react-native";
 import Buttons from '../Buttons';
-import {COLORS} from '../Constants';
+import {COLORS} from '../utils/Constants';
 export default function Footer({handleChoice}) {
     return (
         <View style={styles.container}>

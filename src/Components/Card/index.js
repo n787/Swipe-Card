@@ -2,7 +2,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import React,{useCallback} from 'react';
 import { View ,Image, Text, StyleSheet, Dimensions, Animated} from 'react-native';
 import Choice from '../Choice';
-import { ACTION_OFFSET } from '../Constants';
+import { ACTION_OFFSET } from '../utils/Constants';
 
 const {width, height} = Dimensions.get('screen');
 
